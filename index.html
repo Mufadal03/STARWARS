@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+        <link rel="shortcut icon" href="https://star-wars-searchbar.vercel.app/emipire.png " type="image/x-icon">
+    <title>STAR WARS SEARCHBAR</title>
+</head>
+<body>
+    <div id="container">
+        <div id="img">
+            <img src="./img/download.png" alt="" id="logo">
+        </div>
+        <div id="searchBox">
+            <!-- <form action=""> -->
+            <input type="search" oninput="debounce(getData,500)" placeholder="Search Character" id="search" class="form-control">
+            <img src="./img/download.svg" alt="">
+            <!-- </form> -->
+        </div>
+        <div id="result">
+            
+        </div>
+    </div>
+</body>
+</html>
+<script src="./main.js"></script>
